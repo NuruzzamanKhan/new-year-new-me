@@ -3,6 +3,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.material-symbols-outlined {
+    color: #1ad51a;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
 /* header style */
 .header{
     background-image: url(../images/banner/banner3.png);
@@ -36,4 +46,59 @@
     font-weight: 700;
     color: rgb(12, 157, 224);
     margin-bottom: 175px;
+}
+
+/* failure section style */
+.failure{
+    margin: 0 200px;
+    display: flex;
+    margin-top: 100px;
+}
+.failure-image{
+
+}
+.failure-contain{
+    margin-left: 80px;
+    margin-top: 250px;
+    width: 400px;
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.failure-description{
+    margin: 10px 0px;
+    color: #444343;
+}
+.failure-check-point{
+    list-style: none;
+    padding: 0;
+    color: #444343;
+}
+
+/* plan section style */
+.plan-section{
+    margin: 100px 200px;
+    text-align: center;
+}
+.paln-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.plan{
+    
+}
+.plan-title{
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.plan-description{
+
 }
