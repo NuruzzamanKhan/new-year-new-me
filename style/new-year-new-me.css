@@ -131,15 +131,14 @@
 
 /* footer style */
 .footer{
-    margin: 0 200px;
     margin-top: 80px;
     display: flex;
+    background-color: black;
 }
 .future{
     width: 50%;
-    background-color: black;
     color: white;
-    padding-left: 80px;
+    padding-left: 200px;
     padding-top: 80px;
     padding-right: 40px;
 }
@@ -149,7 +148,7 @@
     padding-bottom: 10px;
 }
 .future-description{
-
+    padding-right:300px ;
 }
 .email{
     padding: 20px 0px;
@@ -163,12 +162,35 @@
 }
 .social li{
     padding-right: 15px;
+    padding-bottom: 80px;
 }
 
 .subscribe{
-
+    padding-top: 80px;
+    padding-left: 30px;
 }
 .subscribe-title{
-
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
 }
+#email{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 250px;
+    border-color: white;
+    background-color: black;
+}
+#submit-btn{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    background-color: #0c9de0;
+}
+
 
